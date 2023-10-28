@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Weather Dashboard</h1>
+  <form id="search-form">
+    <input type="text" id="city-input" placeholder="Enter city">
+    <button type="submit">Search</button>
+  </form>
+  <div id="current-weather">
+    <h1>Today</h1>
+    <p>Humidity: <span id='currentHumidity'></span></p>
+    <p>Temp: <span id='currentTemp'></span></p>
+    <p>windspeed: <span id='currentWindspeed'></span></p>
+
+  </div>
+  <div id="forecast">
+    <h1>Fiveday Forecast</h1>
+    <div>
+      <p>Humidity: <span id='Day1Humidity'></span></p>
+      <p>Temp: <span id='Day1Temp'></span></p>
+      <p>windspeed: <span id='Day1Windspeed'></span></p>
+    </div>
+
+    <div>
+      <p>Humidity1: <span id='Day2Humidity'></span></p>
+      <p>Temp1: <span id='Day2Temp'></span></p>
+      <p>windspeed1: <span id='Day2Windspeed'></span></p>
+    </div>
+
+    <div>
+      <p>Humidity2: <span id='Day3Humidity'></span></p>
+      <p>Temp2: <span id='Day3Temp'></span></p>
+      <p>windspeed2: <span id='Day3Windspeed'></span></p>
+    </div>
+
+    <div>
+      <p>Humidity3: <span id='Day4Humidity'></span></p>
+      <p>Temp3: <span id='Day4Temp'></span></p>
+      <p>windspeed3: <span id='Day4Windspeed'></span></p>
+    </div>
+
+    <div>
+      <p>Humidity4: <span id='Day5Humidity'></span></p>
+      <p>Temp4: <span id='Day5Temp'></span></p>
+      <p>windspeed4: <span id='Day5Windspeed'></span></p>
+    </div>
+  </div>
+  <div id="search-history"></div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
